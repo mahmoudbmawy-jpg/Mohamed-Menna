@@ -87,7 +87,7 @@ export const RSVP: React.FC<RSVPProps> = ({ lang, guestInfo }) => {
   };
 
   return (
-    <section id="rsvp" className="relative py-24 sm:py-36 bg-[#11100E] px-6 overflow-hidden">
+    <section id="rsvp" className="relative py-24 sm:py-36 bg-[#11100E]/60 backdrop-blur-[6px] px-6 overflow-hidden">
       {/* Soft Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-champagne/5 rounded-full blur-[140px] pointer-events-none" />
 

@@ -90,6 +90,28 @@ body {
   }
 }
 
+@keyframes subtleZoom {
+  0%, 100% {
+    transform: scale(1.04);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.animate-subtle-zoom {
+  animation: subtleZoom 25s ease-in-out infinite alternate;
+}
+
+/* Glassmorphism Section Card styling */
+.wedding-glass-card {
+  background: rgba(22, 20, 17, 0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 169, 120, 0.25);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 20px rgba(200, 169, 120, 0.08);
+}
+
 /* Selection Color */
 ::selection {
   background-color: #C8A978;

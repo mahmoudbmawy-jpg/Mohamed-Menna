@@ -15,7 +15,7 @@ export const EventTimeline: React.FC<EventTimelineProps> = ({ lang }) => {
   const items = WEDDING_CONFIG.timeline;
 
   return (
-    <section id="timeline" className="relative py-24 sm:py-36 bg-[#11100E] px-6 overflow-hidden">
+    <section id="timeline" className="relative py-24 sm:py-36 bg-[#11100E]/50 backdrop-blur-[6px] px-6 overflow-hidden">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 sm:mb-24 flex flex-col items-center">

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { DICTIONARY } from "@/config/translations";
 import { WEDDING_CONFIG } from "@/config/wedding";
 import { GuestInfo, Language } from "@/types";
@@ -41,9 +42,17 @@ export const EnvelopeOpening: React.FC<EnvelopeOpeningProps> = ({
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="fixed inset-0 z-50 flex items-center justify-center bg-[#0D0C0A] px-4 py-8 overflow-hidden select-none"
         >
-          {/* Subtle Ambient Background Light */}
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-champagne/10 rounded-full blur-[130px]" />
+          {/* Luxurious Wedding Atmosphere Backdrop */}
+          <div className="absolute inset-0 pointer-events-none overflow-hidden">
+            <Image
+              src="/images/wedding_soft_floral.jpg"
+              alt="Romantic Wedding Backdrop"
+              fill
+              priority
+              className="object-cover object-center filter brightness-[0.38] contrast-[1.1] saturate-[1.2] scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0D0C0A] via-[#0D0C0A]/60 to-[#0D0C0A]/85" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-champagne/15 rounded-full blur-[140px]" />
           </div>
 
           {/* Invitation Envelope Card Container */}

@@ -36,9 +36,9 @@ export const DateSection: React.FC<DateSectionProps> = ({ lang }) => {
   };
 
   return (
-    <section className="relative py-24 sm:py-32 bg-[#14120F] text-center px-6 overflow-hidden">
+    <section className="relative py-24 sm:py-32 bg-[#14120F]/65 backdrop-blur-[6px] text-center px-6 overflow-hidden">
       {/* Background Decorative Monogram Watermark */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-[180px] sm:text-[320px] font-thin text-champagne/[0.03] select-none pointer-events-none">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-[180px] sm:text-[320px] font-thin text-champagne/[0.04] select-none pointer-events-none">
         {WEDDING_CONFIG.monogram}
       </div>
 

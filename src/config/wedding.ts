@@ -86,9 +86,9 @@ export const WEDDING_CONFIG: WeddingConfig = {
     artist: "Romantic Orchestra",
     customAudioUrl: "/audio/wedding-music.mp3",
   },
-  heroImage: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85",
+  heroImage: "/images/wedding_luxury_bg.jpg",
   venueImage: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=85",
-  closingImage: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=2000&q=85",
+  closingImage: "/images/wedding_soft_floral.jpg",
   galleryImages: [
     {
       src: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=85",

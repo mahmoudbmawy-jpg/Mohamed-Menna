@@ -18,7 +18,7 @@ export const EditorialGallery: React.FC<EditorialGalleryProps> = ({ lang }) => {
   const images = WEDDING_CONFIG.galleryImages;
 
   return (
-    <section className="relative py-24 sm:py-36 bg-[#11100E] px-4 sm:px-8 overflow-hidden">
+    <section className="relative py-24 sm:py-36 bg-[#11100E]/70 backdrop-blur-[6px] px-4 sm:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 sm:mb-24 flex flex-col items-center">

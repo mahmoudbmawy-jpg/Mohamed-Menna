@@ -23,6 +23,7 @@ import { MusicPlayer } from "@/components/MusicPlayer";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { CustomCursor } from "@/components/CustomCursor";
 import { GrainOverlay } from "@/components/GrainOverlay";
+import { WeddingAtmosphere } from "@/components/WeddingAtmosphere";
 
 function WeddingExperience() {
   const searchParams = useSearchParams();
@@ -84,7 +85,8 @@ function WeddingExperience() {
         lang === "ar" ? "font-arabic" : "font-sans"
       }`}
     >
-      {/* Background Cinematic Texture & Lighting */}
+      {/* Background Cinematic Wedding Atmosphere & Texture */}
+      <WeddingAtmosphere />
       <GrainOverlay />
       <CustomCursor />
 

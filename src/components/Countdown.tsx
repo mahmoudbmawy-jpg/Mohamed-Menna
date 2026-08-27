@@ -63,7 +63,7 @@ export const Countdown: React.FC<CountdownProps> = ({ lang }) => {
   };
 
   return (
-    <section className="relative py-20 sm:py-28 bg-[#11100E] px-6 text-center overflow-hidden">
+    <section className="relative py-20 sm:py-28 bg-[#11100E]/60 backdrop-blur-[6px] px-6 text-center overflow-hidden">
       <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
         {/* Title */}
         <motion.h2

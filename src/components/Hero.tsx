@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
       <div className="absolute inset-0">
         <motion.div
           initial={{ scale: 1.12, opacity: 0 }}
-          animate={{ scale: 1, opacity: 0.55 }}
+          animate={{ scale: 1, opacity: 0.75 }}
           transition={{ duration: 3.5, ease: "easeOut" }}
           className="relative h-full w-full"
         >
@@ -34,13 +34,14 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
             alt="Mohamed & Menna Wedding Atmosphere"
             fill
             priority
-            className="object-cover object-center filter brightness-[0.7] contrast-[1.05]"
+            className="object-cover object-center filter brightness-[0.65] contrast-[1.1] saturate-[1.15]"
           />
         </motion.div>
 
         {/* Cinematic Multi-layer Vignette */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#11100E] via-[#11100E]/40 to-[#11100E]/70" />
-        <div className="absolute inset-0 bg-radial-gradient from-transparent via-[#11100E]/30 to-[#11100E]/90" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#11100E] via-[#11100E]/30 to-[#11100E]/60" />
+        <div className="absolute inset-0 bg-radial-gradient from-transparent via-[#11100E]/20 to-[#11100E]/80" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-champagne/15 rounded-full blur-[150px] pointer-events-none" />
       </div>
 
       {/* Main Editorial Content */}

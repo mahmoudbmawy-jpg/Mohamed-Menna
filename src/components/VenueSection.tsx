@@ -25,7 +25,7 @@ export const VenueSection: React.FC<VenueSectionProps> = ({ lang }) => {
   };
 
   return (
-    <section id="venue" className="relative py-24 sm:py-36 bg-[#0E0D0B] px-6 overflow-hidden">
+    <section id="venue" className="relative py-24 sm:py-36 bg-[#0E0D0B]/60 backdrop-blur-[6px] px-6 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 sm:mb-20 flex flex-col items-center">

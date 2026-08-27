@@ -27,9 +27,10 @@ export const ClosingScene: React.FC<ClosingSceneProps> = ({ lang }) => {
           src={WEDDING_CONFIG.closingImage}
           alt="Closing celebration atmosphere"
           fill
-          className="object-cover object-center filter brightness-[0.35] contrast-110"
+          className="object-cover object-center filter brightness-[0.45] contrast-105 saturate-[1.15]"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0C0A] via-[#0D0C0A]/60 to-[#0D0C0A]/90" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0D0C0A] via-[#0D0C0A]/60 to-[#0D0C0A]/80" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-champagne/15 rounded-full blur-[140px] pointer-events-none" />
       </div>
 
       <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">

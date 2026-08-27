@@ -16,7 +16,7 @@ export const WeddingDetails: React.FC<WeddingDetailsProps> = ({ lang }) => {
   const config = WEDDING_CONFIG;
 
   return (
-    <section id="details" className="relative py-24 sm:py-36 bg-[#0D0C0A] px-6">
+    <section id="details" className="relative py-24 sm:py-36 bg-[#0D0C0A]/60 backdrop-blur-[6px] px-6">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 sm:mb-20 flex flex-col items-center">

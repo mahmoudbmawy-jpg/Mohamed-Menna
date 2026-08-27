@@ -16,7 +16,7 @@ export const StorySection: React.FC<StorySectionProps> = ({ lang }) => {
   return (
     <section
       id="story"
-      className="relative py-28 sm:py-36 bg-[#0E0D0B] text-center px-6 overflow-hidden"
+      className="relative py-28 sm:py-36 bg-[#0E0D0B]/60 backdrop-blur-[4px] text-center px-6 overflow-hidden"
     >
       <div className="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
         {/* Subtle Tag */}
