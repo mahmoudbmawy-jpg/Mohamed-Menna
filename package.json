@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node ./node_modules/next/dist/bin/next dev",
-    "build": "node ./node_modules/next/dist/bin/next build",
-    "start": "node ./node_modules/next/dist/bin/next start",
-    "lint": "node ./node_modules/next/dist/bin/next lint"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.7",
     "lucide-react": "^1.16.0",
-    "next": "15.1.11",
+    "next": "^15.1.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.0.2"
